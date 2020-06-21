@@ -11,7 +11,9 @@
 #define _WIN32_WINNT _WIN32_WINNT_VISTA
 #endif
 
+#ifndef _CRTDBG_MAP_ALLOC
 #define _CRTDBG_MAP_ALLOC
+#endif
 #include <stdlib.h>
 #include <crtdbg.h>
 
